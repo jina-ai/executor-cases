@@ -34,7 +34,11 @@ Summarize all Executor patterns for Hubble
         |- requirements.txt  🔸⭕1️⃣
         |- config.yml  🔸⭕1️⃣
         |- manifest.yml  🔸⭕1️⃣
+    |
+    |- foo2/...
 ```
+
+[`case9` is the complete form of the package.](success/case9)
 
 | ⭕ Fixed file name | Purpose |
 | --- | --- |
@@ -67,11 +71,11 @@ carefully set `manifest.yml` to the correct values.
 
 TBA by @mapleeit
 
-### Success cases
+## Success cases
 
 Hubble v1 support planning 💜
 
-Hubble support | Folder | Single Python file | `config.yml` |  Internal dependencies | External dependencies | `requirements.txt` with `jina` | `requirements.txt` | `Dockerfile` | `manifest.yml` | `README.md` |
+Hubble support | Folder | Executors in single Python file | `config.yml` |  Internal module dependencies | External package dependencies | `requirements.txt` with `jina` | `requirements.txt` | `Dockerfile` | `manifest.yml` | `README.md` |
 | --- | --- | --- | --- | --- | --- | --- | --- |--- |--- |--- |
 | 💜 | `case1` |  ✅ |
 | 💜 | `case2` |  ✅ | ✅ |
@@ -80,5 +84,7 @@ Hubble support | Folder | Single Python file | `config.yml` |  Internal dependen
 | 💜 | `case5` |  ✅ | ✅ |✅ |✅ |✅ |
 | 💜 | `case6` |  ✅ | ✅ |✅ |✅ |✅ |✅ |
 | 💜 | `case7` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
-| 💜 | `case8` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
-| 💜 | `case9` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | `case8` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | `case9` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
+
+`case9` is the complete form.
