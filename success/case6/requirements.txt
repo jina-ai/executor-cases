@@ -1,0 +1,2 @@
+jina==2.0.0rc1
+tensorflow==2.0.0

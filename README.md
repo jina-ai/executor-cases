@@ -6,6 +6,34 @@ Summarize all Executor patterns for Hubble
 - `success` folder summarizes (all) success cases;
 - `fail` folder summarizes (all) success cases.
 
+## A Valid Executor Source Package
+
+On the presences of the files:
+- ♦️ Must have, Hubble requires it
+- 🔸 Optional, Hubble can use it
+- 🔹 Free to have, e.g. user files
+
+On the name of the files:
+- ⭕ Must follow the file name Hubble defined
+- ❇️ Arbitrary file name
+
+On the number of files:
+- 1️⃣ Only one
+- ♾️ Can be multiple files
+
+```text
+- foobar.git/  ♦️❇️1️⃣
+    |- manifest.yml  🔸⭕1️⃣ (only under repo root)
+    |- foo/  ♦️❇️♾️
+        |
+        |- Dockerfile  🔸⭕1️⃣
+        |- README.md  🔸⭕1️⃣
+        |- requirements.txt  🔸⭕1️⃣
+        |- bar.py  ♦️❇️1️⃣
+        |- helper(s).py  🔹❇️♾️
+        |- config.yml  🔸⭕1️⃣
+```
+
 ### Success cases
 
 | Folder | Single Python file | `config.yml` |  Internal dependencies | External dependencies | `requirements.txt` with `jina` | `requirements.txt` | `Dockerfile` | `manifest.yml` | `README.md` |
@@ -15,3 +43,5 @@ Summarize all Executor patterns for Hubble
 | `case3` |  ✅ | ✅ |✅ |
 | `case4` |  ✅ | ✅ |✅ |✅ |
 | `case5` |  ✅ | ✅ |✅ |✅ |✅ |
+| `case6` |  ✅ | ✅ |✅ |✅ |✅ |✅ |
+| `case7` |  ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
