@@ -80,15 +80,15 @@ Hubble v1 support planning 💜
 
 Hubble support | Folder | Executors in single Python file | `config.yml` |  Internal module dependencies | External package dependencies | `requirements.txt` with `jina` | `requirements.txt` | `Dockerfile` | `manifest.yml` | `README.md` |
 | --- | --- | --- | --- | --- | --- | --- | --- |--- |--- |--- |
-| 💜 | `case1` |  ✅ |
-| 💜 | `case2` |  ✅ | ✅ |
-| 💜 | `case3` |  ✅ | ✅ |✅ |
-|   | `case4` |  ✅ | ✅ |✅ |✅ |
-| 💜 | `case5` |  ✅ | ✅ |✅ |✅ |✅ |
-| 💜 | `case6` |  ✅ | ✅ |✅ |✅ |✅ |✅ |
-| 💜 | `case7` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
-| 💜 | `case8` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |
-| 💜 | `case9` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | [`case1`](success/case1) |  ✅ |
+| 💜 | [`case2`](success/case2) |  ✅ | ✅ |
+| 💜 | [`case3`](success/case3) |  ✅ | ✅ |✅ |
+|   | [`case4`](success/case4) |  ✅ | ✅ |✅ |✅ |
+| 💜 | [`case5`](success/case5) |  ✅ | ✅ |✅ |✅ |✅ |
+| 💜 | [`case6`](success/case6) |  ✅ | ✅ |✅ |✅ |✅ |✅ |
+| 💜 | [`case7`](success/case7) | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | [`case8`](success/case8) | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | [`case9`](success/case9) | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
 
 `case9` is the complete form.
 
