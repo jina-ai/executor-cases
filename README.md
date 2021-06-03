@@ -19,7 +19,7 @@ On the name of the files:
 
 On the number of files:
 - 1️⃣ Only one
-- 🔢 Can be multiple files
+- 🔢 Can be multiple
 
 ```text
 - foobar.git/  🔸🟢1️⃣
