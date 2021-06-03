@@ -3,23 +3,24 @@ Summarize all Executor patterns for Hubble
 
 ## Repo Structure
 
-- `success` folder summarizes (all) success cases;
-- `fail` folder summarizes (all) success cases.
+- `success` folder summarizes (all) successful cases;
+- `fail` folder summarizes (all) failure cases.
 
 ## A Valid Executor Source Package
 
-On the presences of the files:
-- 💠 Must have, Hubble requires it
-- 🔸 Optional, Hubble can use it
-- 🔹 Free to have, e.g. user files
+- On the presences of the files:
+    - 💠 Must have, Hubble requires it
+    - 🔸 Optional, Hubble can use it
+    - 🔹 Free to have, e.g. user files
 
-On the name of the files:
-- ⭕ Must follow the file name Hubble defined
-- 🟢 Arbitrary file name
+- On the name of the files:
+    - ⭕ Must follow the file name Hubble defined
+    - 🟢 Arbitrary file name
 
-On the number of files:
-- 1️⃣ Only one
-- 🔢 Can be multiple
+- On the number of files:
+    - 1️⃣ Only one
+    - 🔢 Can be multiple
+
 
 ```text
 - foobar.git/  🔸🟢1️⃣
@@ -35,6 +36,15 @@ On the number of files:
         |- manifest.yml  🔸⭕1️⃣
 ```
 
+| ⭕ Fixed file name | Purpose |
+| --- | --- |
+| `Dockerfile` | the Dockerfile that Hubble will build on |
+| `README.md` | the usage of the Executor |
+| `requirements.txt` | `pip install -r` required packages |
+| `config.yml` | the Executor YAML config file |
+| `manifest.yml` | an annotation contains meta information of the Executor to get better appealing on Jina Hub |
+| `hubble.yml` | the build config file for Hubble |
+
 ### Success cases
 
 Hubble v1 support planning 💜
@@ -47,4 +57,4 @@ Hubble support | Folder | Single Python file | `config.yml` |  Internal dependen
 |   | `case4` |  ✅ | ✅ |✅ |✅ |
 | 💜 | `case5` |  ✅ | ✅ |✅ |✅ |✅ |
 | 💜 | `case6` |  ✅ | ✅ |✅ |✅ |✅ |✅ |
-| 💜  | `case7` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | `case7` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
