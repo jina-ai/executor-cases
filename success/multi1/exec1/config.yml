@@ -1,0 +1,7 @@
+jtype: MyExecutor1
+with:
+  bar: 123
+metas:
+  py_modules:
+    - exec.py
+    - jinacommon/dep.py
