@@ -22,7 +22,7 @@ On the number of files:
 - 🔢 Can be multiple files
 
 ```text
-- foobar.git/  💠🟢1️⃣
+- foobar.git/  🔸🟢1️⃣
     |- hubble.yml  🔸⭕1️⃣
     |- foo/  💠🟢️🔢
         |
