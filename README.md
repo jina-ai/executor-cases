@@ -9,28 +9,28 @@ Summarize all Executor patterns for Hubble
 ## A Valid Executor Source Package
 
 On the presences of the files:
-- ♦️ Must have, Hubble requires it
+- 💠 Must have, Hubble requires it
 - 🔸 Optional, Hubble can use it
 - 🔹 Free to have, e.g. user files
 
 On the name of the files:
 - ⭕ Must follow the file name Hubble defined
-- ❇️ Arbitrary file name
+- 🟢 Arbitrary file name
 
 On the number of files:
 - 1️⃣ Only one
-- ♾️ Can be multiple files
+- 🔢 Can be multiple files
 
 ```text
-- foobar.git/  ♦️❇️1️⃣
+- foobar.git/  💠🟢1️⃣
     |- manifest.yml  🔸⭕1️⃣ (only under repo root)
-    |- foo/  ♦️❇️♾️
+    |- foo/  💠🟢️🔢
         |
         |- Dockerfile  🔸⭕1️⃣
         |- README.md  🔸⭕1️⃣
         |- requirements.txt  🔸⭕1️⃣
-        |- bar.py  ♦️❇️1️⃣
-        |- helper(s).py  🔹❇️♾️
+        |- bar.py  💠🟢1️⃣
+        |- helper(s).py  🔹🟢🔢
         |- config.yml  🔸⭕1️⃣
 ```
 
