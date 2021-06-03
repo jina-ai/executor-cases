@@ -45,7 +45,7 @@ Summarize all Executor patterns for Hubble
 | `manifest.yml` | an annotation contains meta information of the Executor to get better appealing on Jina Hub |
 | `hubble.yml` | the build config file for Hubble |
 
-### `manifest.yml` fields
+### Fields of `manifest.yml`
 
 `manifest.yml` is optional.
 
@@ -63,7 +63,7 @@ carefully set `manifest.yml` to the correct values.
 | `avatar` | A picture that personalizes and distinguishes your image | None |
 | `keywords` | A list of strings help user to filter and locate your package  | None | 
 
-### `hubble.yml`
+### Fields of `hubble.yml`
 
 TBA by @mapleeit
 
@@ -80,3 +80,5 @@ Hubble support | Folder | Single Python file | `config.yml` |  Internal dependen
 | 💜 | `case5` |  ✅ | ✅ |✅ |✅ |✅ |
 | 💜 | `case6` |  ✅ | ✅ |✅ |✅ |✅ |✅ |
 | 💜 | `case7` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | `case8` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
+| 💜 | `case9` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
