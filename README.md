@@ -1,4 +1,5 @@
 # executor-cases
+
 Summarize all Executor patterns for Hubble
 
 ## Repo Structure
@@ -20,7 +21,6 @@ Summarize all Executor patterns for Hubble
 - On the number of files:
     - 1️⃣ Only one
     - 🔢 Can be multiple
-
 
 ```text
 - foobar.git/  🔸🟢1️⃣
@@ -44,6 +44,28 @@ Summarize all Executor patterns for Hubble
 | `config.yml` | the Executor YAML config file |
 | `manifest.yml` | an annotation contains meta information of the Executor to get better appealing on Jina Hub |
 | `hubble.yml` | the build config file for Hubble |
+
+### `manifest.yml` fields
+
+`manifest.yml` is optional.
+
+`manifest.yml` annotates your image so that it can be managed by Hubble. To get better appealing on Jina Hub, you should
+carefully set `manifest.yml` to the correct values.
+
+| Key | Description | Default |
+| --- | --- | --- |
+| `manifest_version` | The version of the manifest protocol | `1` |
+| `name` | Human-readable title of the image | None |
+| `alias` | The Docker image name  | the digest of the Docker image |
+| `description` | Human-readable description of the software packaged in the image | None |
+| `author` | Contact details of the people or organization responsible for the image (string) | None |
+| `url` | URL to find more information on the image (string) | None |
+| `avatar` | A picture that personalizes and distinguishes your image | None |
+| `keywords` | A list of strings help user to filter and locate your package  | None | 
+
+### `hubble.yml`
+
+TBA by @mapleeit
 
 ### Success cases
 
