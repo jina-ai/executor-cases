@@ -38,7 +38,7 @@ Summarize all Executor patterns for Hubble
     |- foo2/...
 ```
 
-[`case9` is the complete form of the package.](success/case9)
+[`case9` showcases the **"maximum"** form of the **"minimum unit"** package.](success/case9)
 
 
 ### Fixed filenames and their Purposes
