@@ -23,15 +23,16 @@ On the number of files:
 
 ```text
 - foobar.git/  💠🟢1️⃣
-    |- manifest.yml  🔸⭕1️⃣ (only under repo root)
+    |- hubble.yml  🔸⭕1️⃣
     |- foo/  💠🟢️🔢
         |
+        |- bar.py  💠🟢1️⃣
+        |- helper(s).py  🔹🟢🔢
         |- Dockerfile  🔸⭕1️⃣
         |- README.md  🔸⭕1️⃣
         |- requirements.txt  🔸⭕1️⃣
-        |- bar.py  💠🟢1️⃣
-        |- helper(s).py  🔹🟢🔢
         |- config.yml  🔸⭕1️⃣
+        |- manifest.yml  🔸⭕1️⃣
 ```
 
 ### Success cases
