@@ -91,3 +91,7 @@ Hubble support | Folder | Executors in single Python file | `config.yml` |  Inte
 | 💜 | `case9` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |✅ |✅ |
 
 `case9` is the complete form.
+
+## Executor Package Normalizer in Hubble
+
+Package normalizer completes `case1-8` to `case9`.
