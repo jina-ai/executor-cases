@@ -3,5 +3,6 @@ with:
   bar: 123
 metas:
   py_modules:
-    - exec.py
     - dep.py
+    - exec.py
+
