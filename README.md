@@ -37,12 +37,14 @@ On the number of files:
 
 ### Success cases
 
-| Folder | Single Python file | `config.yml` |  Internal dependencies | External dependencies | `requirements.txt` with `jina` | `requirements.txt` | `Dockerfile` | `manifest.yml` | `README.md` |
-| --- | --- | --- | --- | --- | --- | --- |--- |--- |--- |
-| `case1` |  ✅ |
-| `case2` |  ✅ | ✅ |
-| `case3` |  ✅ | ✅ |✅ |
-| `case4` |  ✅ | ✅ |✅ |✅ |
-| `case5` |  ✅ | ✅ |✅ |✅ |✅ |
-| `case6` |  ✅ | ✅ |✅ |✅ |✅ |✅ |
-| `case7` |  ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
+Hubble v1 support planning 💜
+
+Hubble support | Folder | Single Python file | `config.yml` |  Internal dependencies | External dependencies | `requirements.txt` with `jina` | `requirements.txt` | `Dockerfile` | `manifest.yml` | `README.md` |
+| --- | --- | --- | --- | --- | --- | --- | --- |--- |--- |--- |
+| 💜 | `case1` |  ✅ |
+| 💜 | `case2` |  ✅ | ✅ |
+| 💜 | `case3` |  ✅ | ✅ |✅ |
+|   | `case4` |  ✅ | ✅ |✅ |✅ |
+| 💜 | `case5` |  ✅ | ✅ |✅ |✅ |✅ |
+| 💜 | `case6` |  ✅ | ✅ |✅ |✅ |✅ |✅ |
+| 💜  | `case7` | ✅ | ✅ |✅ |✅ |✅ |✅ |✅ |
