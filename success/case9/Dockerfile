@@ -1,6 +1,6 @@
 FROM jinaai/jina:master
 
-ADD *.py *.yml ./
+ADD *.py *.yml requirements.txt ./
 
 RUN pip install -r requirements.txt
 
