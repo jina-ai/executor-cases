@@ -1,4 +1,4 @@
-import tensorflow as tf
+import numpy as np
 from jina import Executor, requests
 
 from dep import hello
@@ -13,4 +13,4 @@ class MyExecutor(Executor):
     @requests
     def foo(self, **kwargs):
         hello()
-        print(tf.__version__)
+        print(np.__version__)
