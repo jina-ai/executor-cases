@@ -1,5 +1,5 @@
 from jina import Executor, requests
-import tensorflow as tf
+import numpy as np
 from dep import hello
 
 
@@ -12,4 +12,4 @@ class MyExecutor(Executor):
     @requests
     def foo(self, **kwargs):
         hello()
-        print(tf.__version__)
+        print(np.__version__)
