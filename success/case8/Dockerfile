@@ -1,6 +1,4 @@
-ARG JINA_VERSION
-
-FROM jinaai/jina:$JINA_VERSION
+FROM jinaai/jina:master
 
 ADD *.py *.yml ./
 
