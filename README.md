@@ -5,7 +5,7 @@ Summarize all Executor patterns for Hubble
 ## Repo Structure
 
 - `success` folder summarizes (all) successful cases;
-- `fail` folder summarizes (all) failure cases.
+- `error` folder summarizes (all) failure cases.
 
 ## A Valid Executor Source Package
 
