@@ -1,2 +1,9 @@
 alias: case9-img
 author: han
+description: Baseline test case 9
+avatar: https://this.is.a.test
+url: http://this.is.a.test.too
+keywords:
+  - test
+  - baseline
+  - case9
