@@ -1,7 +1,9 @@
 
+- Built and run 💜
+- Built but can't run 🚧
 
-| ⭕ | Comment |
-| --- | --- |
-| `case1` | complex internal module dependencies |
-| `case2` | complex internal and external module dependencies |
+Hubble support | Folder | Comment |
+| --- | --- | --- |
+| 💜 | `case1` | complex internal module dependencies |
+| 🚧 | `case2` | complex internal and external module dependencies |
 
