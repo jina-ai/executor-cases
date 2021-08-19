@@ -62,12 +62,10 @@ carefully set `manifest.yml` to the correct values.
 | Key | Description | Default |
 | --- | --- | --- |
 | `manifest_version` | The version of the manifest protocol | `1` |
-| `name` | Human-readable title of the image | None |
-| `alias` | The Docker image name  | the digest of the Docker image |
-| `description` | Human-readable description of the software packaged in the image | None |
-| `author` | Contact details of the people or organization responsible for the image (string) | None |
-| `url` | URL to find more information on the image (string) | None |
-| `avatar` | A picture that personalizes and distinguishes your image | None |
+| `name` | Human-readable title of the Executor | None |
+| `alias` | Human-readable unique id of the Executor | None |
+| `description` | Human-readable description of the Executor | None |
+| `url` | URL to find more information on the Executor, normally it should be the GitHub repo URL | None |
 | `keywords` | A list of strings help user to filter and locate your package  | None | 
 
 ### Fields of `hubble.yml`
