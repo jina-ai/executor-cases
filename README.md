@@ -63,11 +63,9 @@ carefully set `manifest.yml` to the correct values.
 | --- | --- | --- |
 | `manifest_version` | The version of the manifest protocol | `1` |
 | `name` | Human-readable title of the Executor | None |
-| `alias` | Human-readable unique id of the Executor | None |
 | `description` | Human-readable description of the Executor | None |
 | `url` | URL to find more information on the Executor, normally it should be the GitHub repo URL | None |
 | `keywords` | A list of strings help user to filter and locate your package  | None | 
-| `license` | License | None |
 
 ### Fields of `hubble.yml`
 
