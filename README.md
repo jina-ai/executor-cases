@@ -67,6 +67,7 @@ carefully set `manifest.yml` to the correct values.
 | `description` | Human-readable description of the Executor | None |
 | `url` | URL to find more information on the Executor, normally it should be the GitHub repo URL | None |
 | `keywords` | A list of strings help user to filter and locate your package  | None | 
+| `license` | License | None |
 
 ### Fields of `hubble.yml`
 
