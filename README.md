@@ -92,6 +92,26 @@ Hubble support | Folder | Executors in single Python file | `config.yml` |  Inte
 
 `case9` is the complete form.
 
+### Defining multiple Executors in one repository
+
+**Not yet decided - up for discussion!**
+
+We might want to combine multiple Executors into one repository for easier maintainability.
+Suggestion (see `multi1`):
+
+1. include `setup.py` which install all executors with the prefix `jinahub.`
+2. hubble first build the python package from the repository
+3. afterwards hubble build the docker images
+    - `py_modules` gets empowered by being able to import from a given module import path.
+    - every executor needs the top-level package inside `requirements.txt`
+
+Beauty of this approach:
+
+1. Building the python package and building the docker image is decoupled.
+**Is this good or bad?**
+2. We can have a full hub again, which is independant of core.
+
+
 ## Executor Package Normalizer in Hubble
 
 Package normalizer completes `case1-8` to `case9`.
