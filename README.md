@@ -32,7 +32,7 @@ Summarize all Executor patterns for Hubble
         |- Dockerfile  🔸⭕1️⃣
         |- README.md  🔸⭕1️⃣
         |- requirements.txt  🔸⭕1️⃣
-        |- config.yml  🔸⭕1️⃣
+        |- config.yml  💠⭕1️⃣
         |- manifest.yml  🔸⭕1️⃣
     |
     |- foo2/...

@@ -1,0 +1,4 @@
+jtype: MyExecutor
+py_modules: exec.py
+metas:
+  name: 'MeantToFailCase2'

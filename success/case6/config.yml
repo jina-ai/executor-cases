@@ -2,6 +2,7 @@ jtype: MyExecutor
 with:
   bar: 123
 metas:
+  name: 'MeantToSuccessCase6'
   py_modules:
     - dep.py
     - exec.py

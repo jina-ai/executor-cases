@@ -2,4 +2,5 @@ jtype: MyExecutor
 with:
   bar: 123
 metas:
+  name: 'MeantToSuccessCase2'
   py_modules: exec.py
