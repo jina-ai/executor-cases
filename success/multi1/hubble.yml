@@ -1,0 +1,3 @@
+executors:
+  - path: jinahub/exec1
+  - path: jinahub/exec2

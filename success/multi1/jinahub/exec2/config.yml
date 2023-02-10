@@ -1,0 +1,6 @@
+jtype: MyExecutor2
+with:
+  bar: 123
+metas:
+  py_modules:
+    - jinahub.exec2.exec
