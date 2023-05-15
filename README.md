@@ -87,6 +87,7 @@ Hubble support | Folder | Executors in single Python file | `config.yml` |  Inte
 | 💜 | [`case5`](success/case5) | ✅ | ✅ |✅ |✅ |✅ |
 | 💜 | [`case6`](success/case6) | ✅ | ✅ |✅ |✅ |✅ |✅ |
 | 💜 | [`case6-2`](success/case6-2) | ✅ | ✅ |✅ |✅ |✅ | x | ✅ |
+| 💜 | [`case6-3`](success/case6-3) poetry | ✅ | ✅ |✅ |✅ |✅ | x | ✅ |
 | 💜 | [`case7`](success/case7) | ✅ | ✅ |✅ |✅ |✅ |✅ | x | ✅ |
 | 💜 | [`case8`](success/case8) | ✅ | ✅ |✅ |✅ |✅ |✅ | x | ✅ |✅ |
 | 💜 | [`case9`](success/case9) | ✅ | ✅ |✅ |✅ |✅ |✅ | x | ✅ |✅ |✅ |
