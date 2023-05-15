@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=18.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MeantToSuccessCase6-2"
+
+version = "v0.1.0"
+
+dependencies = [
+  "numpy>=1.20.0",
+]
